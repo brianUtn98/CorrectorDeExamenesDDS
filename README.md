@@ -43,3 +43,41 @@ Para agregar los cambios siguientes:
 * descuenta 1 punto del total.
 
 Debería agregar un campo a las preguntas para saber si están bien o mal, ya que mi solución contempla si una pregunta concreta está "mal pero no tan mal".
+
+* Las preguntas mal contestadas no suman:
+
+```java
+Class Pregunta{
+bool estaBien;
+
+  bool estaBienRespondida(){
+  return estaBien;
+  }
+}
+
+int puntajeObtenido(){
+return this.preguntas().filter(unaPregunta -> unaPregunta.estaBienRespondida()).sum(unaPregunta ->unaPregunta.puntajeObtenido);
+}
+```
+*restan la mitad de su valor
+```java
+Class Pregunta{
+int puntajeObtenido(){
+if(estaBien)
+return puntajeObtenido;
+else
+return -(peso/2);
+}
+}
+```
+
+*descuenta 1 punto del total
+```java
+Class Pregunta{
+int puntajeObtenido(){
+if(estaBien)
+return puntajeObtenido;
+else
+return -peso;
+}
+}
