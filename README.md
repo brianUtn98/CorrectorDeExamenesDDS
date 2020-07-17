@@ -81,3 +81,5 @@ else
 return -peso;
 }
 }
+```
+Para hacer intercambiable este último comportamiento, podríamos usar composición, utilizando una interface Modalidad.
