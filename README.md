@@ -59,7 +59,7 @@ int puntajeObtenido(){
 return this.preguntas().filter(unaPregunta -> unaPregunta.estaBienRespondida()).sum(unaPregunta ->unaPregunta.puntajeObtenido);
 }
 ```
-*restan la mitad de su valor
+* restan la mitad de su valor
 ```java
 Class Pregunta{
 int puntajeObtenido(){
@@ -71,7 +71,7 @@ return -(peso/2);
 }
 ```
 
-*descuenta 1 punto del total
+* descuenta 1 punto del total
 ```java
 Class Pregunta{
 int puntajeObtenido(){
