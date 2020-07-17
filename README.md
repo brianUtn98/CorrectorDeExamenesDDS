@@ -25,9 +25,21 @@ return this.preguntas().sum(unaPregunta -> unaPregunta.puntajeObtenido());
 Class Pregunta{
 int peso;
 int puntajeObtenido;
+TipoPregunta tipo;
 int puntajeObteido(){
 return puntajeObtenido;
 }
 }
 
+Enum TipoPregunta{
+MultipleChoise, VoF ,PreguntaConcreta
+}
+
 ```
+
+Para agregar los cambios siguientes:
+* las preguntas mal contestadas no suman, 
+* restan la mitad de su valor, o bien 
+* descuenta 1 punto del total.
+
+Debería agregar un campo a las preguntas para saber si están bien o mal, ya que mi solución contempla si una pregunta concreta está "mal pero no tan mal".
