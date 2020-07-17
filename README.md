@@ -1,1 +1,4 @@
 # CorrectorDeExamenesDDS
+
+Diagrama de clases:
+<img src = "LSuz2iCm30NWNQVG0PASe8I0QQSMCfJk8XMjmB6D9K-XTwy7czBjmVVqiwXHjh9xS9vKSQMy2Va3hg9sMZE_IZ2QCRMa09zMxNY01CF46YkTGzdnBYd-z5QyIVBitb6KXqUy31rT35jcepe8q4xZDCtO2z03ZkFyjnSM3i_wznS0.png">
